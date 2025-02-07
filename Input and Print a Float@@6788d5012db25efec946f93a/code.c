@@ -1,8 +1,11 @@
 #include <stdio.h>
 
-int main{
-    int a=39.5;
-    scanf("enter float");
-    printf("%d",a);
+int main(){
+    float a;
+    printf("enter a floating point number:");
+    scanf("%f", &num);
+    printf("You entered: %f\n", num);
+    return 0;
     
+
 }
