@@ -3,9 +3,10 @@
 
 
 int main() {
-    int num = 5; 
-    int shifted = num << 2; 
-    printf("Original number: %d\n", num); 
-    printf("Shifted number: %d\n", shifted); 
+    int num , shifted;
+    scanf("%d", &num) ;
+    shifted = num << 2; 
+    
+    printf("%d", shifted); 
     return 0;
 }
