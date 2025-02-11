@@ -10,6 +10,6 @@ int main(){
         print("Negative");
     }
     if(a==0){
-        print("Zero")
+        print("Zero");
     }
 }
