@@ -7,10 +7,10 @@ int main(){
         printf("Positive");
     }
     if(a<0){
-        print("Negative");
+        printf("Negative");
     }
-    if(a==0){
-        print("Zero");
+    if( a==0){
+        printf("Zero");
     }
     return 0;
 }
