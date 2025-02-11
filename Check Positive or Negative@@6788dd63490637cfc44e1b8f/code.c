@@ -12,4 +12,5 @@ int main(){
     if(a==0){
         print("Zero");
     }
+    return 0;
 }
