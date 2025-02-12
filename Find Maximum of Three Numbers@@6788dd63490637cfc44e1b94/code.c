@@ -13,4 +13,5 @@ int main(){
     if(c>a && c>b){
         printf("%d", c);
     }
+    return 0;
 }
