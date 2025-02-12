@@ -8,6 +8,6 @@
         printf("Yes");
     }
     else{
-        printf("No")
+        printf("No");
     }
  }
