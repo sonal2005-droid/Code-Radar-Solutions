@@ -2,15 +2,22 @@
 
 int main(){
 
-    int a;
+    int a , isPrime=1;
     scanf("%d", &a);
 
     if(a>0){
-        if(a%1==0 && a%a==0){
-            printf("Prime");
+        isPrime = 0;
+    }
+    else{
+        for(i=2;i <= a/2;i++){
+            if(a%i==0);
+            break;
         }
-        else{
-            printf("Not Prime");
-        }
+    }
+    if(isPrime){
+        printf("Prime");
+    }
+    else{
+        printf("Not Prime");
     }
 }
