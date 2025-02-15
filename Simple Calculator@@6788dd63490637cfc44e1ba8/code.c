@@ -2,19 +2,26 @@
 
 int main(){
     int a , b ,c;
+
     scanf("%d%d%d", &a,&b,&c);
 
-    if(c=='+'){
-        printf("%d",a+b);
+    switch(c);
+    case 1:'+'
+    {
+      printf("%d",&(a+b));
     }
-    else if(c=='-'){
-        printf("%d",a-b);
+    case 2:'-'
+    {
+        printf("%d",&(a-b));
     }
-    else if(c=='*'){
-        printf("%d",a*b );
+    case 3:'*'{
+        printf("%d",&(a*b));
     }
-    else if(c=='/'){
-        printf("%d",a/b);
+    case 4:'/'{
+        printf("%d",&(a/b));
     }
-    return 0;
+    case default:
+    {
+        printf("Invalid");
+    }
 }
