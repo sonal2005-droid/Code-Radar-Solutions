@@ -1,33 +1,28 @@
 #include <stdio.h>
 
-int main(){
-    int a , b ;
+int main() {
+    int a, b;
     char c;
 
-    scanf("%d%d%c", &a,&b,&c);
+    // Read two integers and an operator
+    scanf("%d %d %c", &a, &b, &c);
 
-    if(c=='+'){
-        printf("%d",(a+b));
-    }
-    else if(c=='-'){
-        printf("%d",(a-b));
-    }
-    else if(c=='*'){
-        printf("%d",(a*b));
-    }
-    else if(c=='/'){
-        if(b!=0){
-            printf("%d",(a/b));
-
+    // Perform operations based on the operator
+    if (c == '+') {
+        printf("%d", (a + b));
+    } else if (c == '-') {
+        printf("%d", (a - b));
+    } else if (c == '*') {
+        printf("%d", (a * b));
+    } else if (c == '/') {
+        if (b != 0) {
+            printf("%d", (a / b));
+        } else {
+            printf("Error: Division by zero");
         }
-        else{
-            printf("Error:Divison by zero");
-        }
-        
-    }
-    else{
+    } else {
         printf("Error: Invalid operator");
     }
-    
+
     return 0;
 }
