@@ -21,7 +21,7 @@ int main(){
 
         }
         else{
-            print("Error:Divison by zero");
+            printf("Error:Divison by zero");
         }
         
     }
