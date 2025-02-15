@@ -16,7 +16,17 @@ int main(){
         printf("%d",(a*b));
     }
     else if(c=='/'){
-        printf("%d",(a/b));
+        if(b!=0){
+            printf("%d",(a/b));
+
+        }
+        else{
+            print("Error:Divison by zero");
+        }
+        
+    }
+    else{
+        printf("Error: Invalid operator");
     }
     
     return 0;
