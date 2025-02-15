@@ -29,5 +29,8 @@ int main(){
     }
     
     }
+    else{
+        printf("Invalid");
+    }
     
 }
