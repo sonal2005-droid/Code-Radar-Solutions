@@ -3,9 +3,9 @@
 int main(){
 
     int num,result;
-    ("%u",&num);
+    ("%d",&num);
     result= ~num;
-    printf("%u",result);
+    printf("%d",result);
 
     return 0;
 }
