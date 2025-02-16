@@ -5,5 +5,5 @@ int main(){
 
     scanf("%d",&a);
     complement = ~a;
-    printf("%d",complement)
+    printf("%d",complement);
 }
