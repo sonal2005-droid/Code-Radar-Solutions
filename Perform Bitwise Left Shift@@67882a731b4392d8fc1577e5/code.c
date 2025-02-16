@@ -3,18 +3,11 @@
 
 
 int main() {
-    int num , shifted,i=1;
+    int num , shifted,i;
     scanf("%d", &num) ;
-    while(i<=num){
-    
+    for(i=1;i<=num;i++){
         shifted=num<<i;
-        printf("%d", shifted);
-        
-        
+        printf("%d",shifted);
     }
-    i++;
-    
-    
-    
     return 0;
 }
