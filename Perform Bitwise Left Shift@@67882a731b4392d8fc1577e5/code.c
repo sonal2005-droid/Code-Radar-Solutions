@@ -8,10 +8,11 @@ int main() {
     while(i<=num){
     
         shifted=num<<i;
+        printf("%d", shifted);
+        i++;
         
     }
-    i++;
-    printf("shifted")
+    
     
     
     return 0;
