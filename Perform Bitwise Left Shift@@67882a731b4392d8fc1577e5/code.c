@@ -9,9 +9,10 @@ int main() {
     
         shifted=num<<i;
         printf("%d", shifted);
-        i++;
+        
         
     }
+    i++;
     
     
     
