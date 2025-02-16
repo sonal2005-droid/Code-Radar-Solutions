@@ -7,8 +7,9 @@ int main() {
     scanf("%d", &num) ;
     for(i=1;i<=5;i++){
         shifted=num<<i;
+        printf("%d",shifted)
     }
     
-    printf("%d", shifted); 
+    
     return 0;
 }
