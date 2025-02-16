@@ -3,7 +3,7 @@
 int main(){
 
     int num,result;
-    ("%d",&num);
+    ("%u",&num);
     result= ~num;
     printf("%d",result);
 
