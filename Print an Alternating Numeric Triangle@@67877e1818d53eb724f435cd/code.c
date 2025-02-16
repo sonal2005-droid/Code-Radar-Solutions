@@ -7,7 +7,7 @@ int main(){
     for(i=1;i<=a;i++){
 
         for(j=1;j<=i;j++){
-            printf("%d " '1'||'0');
+            printf("%d " ,(i+j)%2);
         }
         printf("\n");
     }
