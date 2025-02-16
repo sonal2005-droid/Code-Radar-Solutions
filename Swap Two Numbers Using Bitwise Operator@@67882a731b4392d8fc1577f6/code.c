@@ -9,7 +9,7 @@ int main(){
     b=a^b;
     
 
-    printf("%d%d",&a,&b);
+    printf("a=%d, b=%d\n",a,b);
 
     return 0;
 }
