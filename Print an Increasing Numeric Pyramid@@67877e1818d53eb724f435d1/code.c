@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main(){
-    int a,i,j,k;
+    int a,i,j,k=1;
     scanf("%d",&a);
 
     for(i=1;i<=a;i++){
 
-        for(j=i;j<a;j++){
+        for(j=i;j<=a-1;j++){
             printf(" ");
         }
-        for(k=1;k<=(2*i-1);k++){
-            printf("%d " k+1);
+        for(j=1;k<=j<=i;j++){
+            printf("%d " k);
         }
         printf("\n");
     }
