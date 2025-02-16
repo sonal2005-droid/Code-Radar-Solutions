@@ -3,12 +3,15 @@
 
 
 int main() {
-    int num , shifted,i;
+    int num , shifted,i=1;
     scanf("%d", &num) ;
-    for(i=1;i<=5;i++){
+    while(i<=num){
+    
         shifted=num<<i;
-        printf("%d",shifted);
+        
     }
+    i++;
+    printf("shifted")
     
     
     return 0;
