@@ -10,7 +10,7 @@ int main(){
     a=a^b;
     
 
-    printf("%d%d",a,b);
+    printf("a=%d,b=%d",a,b);
 
     return 0;
 }
