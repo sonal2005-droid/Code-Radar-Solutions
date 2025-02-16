@@ -20,6 +20,6 @@ int main(){
         printf("Fail");
     }
     else{
-        printf("Invalid Input");
+        printf("Invalid grade");
     }
 }
