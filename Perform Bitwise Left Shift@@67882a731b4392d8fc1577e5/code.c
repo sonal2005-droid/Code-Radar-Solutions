@@ -9,6 +9,6 @@ int main() {
         shifted=num<<i;
         
     }
-    printf("%d/n",shifted);
+    printf("%d\n",shifted);
     return 0;
 }
