@@ -9,7 +9,8 @@ int main() {
     for (i = 0; i <=N; i++) {
         for (j = 0; j <= i; j++) {
             
-            printf("%d ", (i + j) / 2);
+            printf("%d ", N);
+            N=(N==1)? 0:1;
         }
         printf("\n");
     }
