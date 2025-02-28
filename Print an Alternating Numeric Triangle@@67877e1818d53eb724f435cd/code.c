@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &N);
 
     for (i = 0; i <=N; i++) {
-        for (j = 1; j <= i; j++) {
+        for (j = 0; j <= i; j++) {
             
             printf("%d ", (i + j) / 2);
         }
