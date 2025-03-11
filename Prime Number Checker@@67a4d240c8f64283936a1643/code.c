@@ -1,5 +1,5 @@
 # include <stdio.h>
-defPrime
+defPrime;
 
 int  main(){
     int t;
