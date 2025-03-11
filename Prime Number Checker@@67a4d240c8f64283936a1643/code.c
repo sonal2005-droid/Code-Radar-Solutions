@@ -1,5 +1,5 @@
 # include <stdio.h>
-defPrime;
+
 
 int  main(){
     int t;
@@ -10,7 +10,7 @@ int  main(){
         printf("%d\n", isPrime(num));
     }
     return 0;
-    defPrime(){
+    isPrime(){
         if(num==0||num==1){
             printf("0");
         }
