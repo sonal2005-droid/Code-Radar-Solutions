@@ -26,4 +26,7 @@ int main(){
     }
     int temp=integer(N,a[]);
     printf("%d",temp);
+
+    return 0;
+}   
     
