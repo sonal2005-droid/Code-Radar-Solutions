@@ -1,5 +1,18 @@
 #include <stdio.h>
-#include<limits.h>
+int integer(int N,int a[]){
+    int max=a[0];
+    int min=a[0];
+    for(int i=0;i<N;i++){
+        if(max>a[i]){
+            printf("%d",max);
+        }
+        else(min>a[i]){
+            printf("%d",,min);
+        }
+    }
+    return;
+}
+
 
 int main(){
     int N;
@@ -9,19 +22,6 @@ int main(){
         int a[i];
         scanf("%d",&a[i]);
     }
-    int max=a[0];
-    int min=a[-1];
-    for(int i=0;i<N;i++){
-        if(max>a[i]){
-            max=a[i];
-            break;
-        }
-        else if(min>a[i]){
-            min=a[i];
-            break;
-        }
-    }
-    printf("%d\n",max);
-    printf("%d\n",min);
-
-}
+    int temp=integer(N,a[]);
+    printf("%d",temp);
+    
