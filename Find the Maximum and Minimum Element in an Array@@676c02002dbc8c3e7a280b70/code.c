@@ -12,7 +12,7 @@ int integer(int N,int a[]){
             printf("%d",,min);
         }
     }
-    return;
+    return 0;
 }
 
 
