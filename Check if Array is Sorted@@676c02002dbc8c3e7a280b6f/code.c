@@ -8,19 +8,25 @@ int main(){
         int arr[i];
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<=N;i++){
-        for(int j=0;j<=N-i-1;j++){
-            if(arr[j]<arr[j+1]){
-             printf("\n");  
-             printf("Sorted");
-            }
+    int isSorted =1;
+    for(int i=0;i<N-1;i++){
+        if(arr[i>arr[i+1]]){
+            isSorted=0;
+            break;
+        }
+    }
+    if (isSorted\n){
+        printf("Sorted\n");
+    }
+    else{
+        printf("Unsorted\n");
+    }
+}
+
         
                 
             
-            if(arr[j]>arr[j+1]) {
-                printf(\n);
-                printf("Unsorted");
-            }
+    
             
         }
     }
