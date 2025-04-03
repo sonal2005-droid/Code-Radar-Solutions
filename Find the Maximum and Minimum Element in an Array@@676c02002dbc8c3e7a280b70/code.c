@@ -19,7 +19,7 @@ int main(){
             min=a[i];
         }
     }
-    printf("%d",max);
-    printf("%d",min);
+    printf("%d\n",max);
+    printf("%d\n",min);
 
 }
