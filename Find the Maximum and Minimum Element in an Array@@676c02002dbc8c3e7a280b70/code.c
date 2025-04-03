@@ -14,9 +14,11 @@ int main(){
     for(int i=0;i<N;i++){
         if(max>a[i]){
             max=a[i];
+            break;
         }
         else if(min<a[i]){
             min=a[i];
+            break;
         }
     }
     printf("%d\n",max);
