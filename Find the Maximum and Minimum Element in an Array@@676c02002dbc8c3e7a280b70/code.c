@@ -1,5 +1,6 @@
 #include <stdio.h>
-int integer(int N,int a[]){
+int integer(int N,int a){
+    int a[];
     int max=a[0];
     int min=a[0];
     for(int i=0;i<N;i++){
