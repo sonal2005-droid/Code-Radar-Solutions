@@ -13,7 +13,7 @@ int main(){
             if(arr[j]<arr[j+1]){
                 
                 
-                printf("Sorted");
+                printf("Sorted\n");
                 
             }
             else{
