@@ -19,7 +19,7 @@ int main(){
         printf("Sorted\n");
     }
     else{
-        printf("Unsorted\n");
+        printf("Not sorted\n");
     }
     return 0;
 }
