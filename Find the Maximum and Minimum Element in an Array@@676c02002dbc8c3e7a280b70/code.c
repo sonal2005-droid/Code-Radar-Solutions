@@ -4,9 +4,11 @@ int integer(int N,int a[]){
     int min=a[0];
     for(int i=0;i<N;i++){
         if(max>a[i]){
+            max=a[i];
             printf("%d",max);
         }
         else(min>a[i]){
+            min=a[i];
             printf("%d",,min);
         }
     }
