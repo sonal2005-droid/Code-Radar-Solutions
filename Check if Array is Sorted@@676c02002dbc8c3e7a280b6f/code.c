@@ -18,8 +18,8 @@ int main(){
             printf("Sorted");
                 
             
-            else{
-                printf("Unsorted\n");
+            else if(arr[j]>arr[j+1]){
+                printf("Unsorted");
             }
         }
     }
