@@ -21,6 +21,7 @@ int main(){
     else{
         printf("Unsorted\n");
     }
+    return 0;
 }
 
         
